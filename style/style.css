@@ -1,0 +1,111 @@
+*{margin: 0px; padding: 0px;
+box-sizing: border-box; 
+}
+/*cabeçalho*/
+header{background-color: #ff9a6c;
+padding: 24px 80px 24px 80px;
+display: flex;
+align-items: center; justify-content: space-between;
+}
+header nav a{
+    color: white; text-decoration: none; padding: 0px 20px 0px 20px;
+}
+/*cabeçalho*/
+/*corpo*/
+body{
+    @font-face {
+        font-family: 'Parkinsans', serif;
+        src: url(../fontes/parkinsans/parkinsans.ttf);
+    }
+    font-family: 'Parkinsans', serif;
+}
+/*corpo*/
+/*seção do inicio*/
+#inicio{
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    padding: 40px;
+    position: relative;
+}
+/*seção do inicio*/
+h1, h2, h3{
+    padding: 15px 0px 15px 0px;
+}
+#clinica ol li{
+    margin: 0px 0px 40px 0px;
+    padding: 0px 30px 0px, 30px;
+}
+p.paragrafo-inicio{
+    line-height: 150%;
+    margin: 0px 0px 32px 0px;
+}
+
+#clinica{display: flex;
+align-items: center; gap: 64;
+padding: 64px 80px;
+}
+
+#farmacia{
+    text-align: center; 
+    padding: 64px 80px ;
+}
+#farmacia img{
+    margin: 64px auto;
+}
+#farmacia .paragrafo-inicio{
+    max-width: 900px;
+    margin: 0 auto;
+}
+#duvidas{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 80px;
+}
+#CopyRight{background-color: rgb(35, 35, 35); color: #ff9a6c; padding: 20px; justify-content: center;}
+#CopyRight a{color:#FF725E}
+
+/*classes*/
+.botão {
+    background-color: #FF725E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+}
+.botão-transparente {
+    background-color: transparent;
+    color: #FF725E;
+    padding: 16px 32px;
+    text-underline-offset: 7px;
+}
+.absoluto{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+.duvida{position: relative;}
+.duvida h3{
+    border: #FF725E solid 2px;
+    border-radius: 6px;
+    cursor: pointer; 
+    padding: 24px;    
+    position: relative;
+
+}
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+/*classes*/
+footer{background-color: rgba(255, 152, 108, 0.25);
+display: flex; align-items: center; gap: 80px;}
+footer a{
+    color: #ff9a6c;
+    text-decoration: none;
+}
