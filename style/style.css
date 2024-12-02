@@ -87,7 +87,15 @@ padding: 64px 80px;
     width: 100%;
     z-index: -10;
 }
-.duvida{position: relative;}
+div.duvida{margin: 20px;}
+.duvida{position: relative;  border-radius: 3px;}
+.duvida p{
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    border: rgb(29, 29, 29) solid 2px;
+}
+.ativa p{height: fit-content; opacity: 100%; overflow: visible;}
 .duvida h3{
     border: #FF725E solid 2px;
     border-radius: 6px;
@@ -100,6 +108,9 @@ padding: 64px 80px;
     position: absolute;
     top: 32px;
     right: 24px;
+}
+.fundo-verde{
+    background-color: greenyellow;
 }
 
 /*classes*/
