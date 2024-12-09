@@ -22,6 +22,7 @@ body{
         src: url(../fontes/parkinsans/parkinsans.ttf);
     }
     font-family: 'Parkinsans', serif;
+    transition: ;
 
 }
 /*corpo*/
@@ -130,7 +131,9 @@ div.duvida{margin: 20px; width: 100%;}
     border: rgb(29, 29, 29) solid 2px;
     width: 100%;
 }
-.ativa p{height: fit-content; opacity: 100%; overflow: visible;}
+.ativa{transition: .30s;}
+.ativa p{height: fit-content; opacity: 100%; overflow: visible;
+transition: .30s;}
 .duvida h3{
     border: #FF725E solid 2px;
     border-radius: 6px;
